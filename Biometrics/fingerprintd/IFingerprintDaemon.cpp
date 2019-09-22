@@ -23,6 +23,8 @@
 #include <binder/PermissionCache.h>
 #include <utils/String16.h>
 #include <utils/Looper.h>
+#include <android/security/keystore/IKeystoreService.h>
+#include <keystore/keystore.h>
 #include <hardware/hardware.h>
 #include <hardware/fingerprint.h>
 #include <hardware/hw_auth_token.h>
