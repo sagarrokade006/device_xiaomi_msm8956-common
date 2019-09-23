@@ -482,3 +482,6 @@ PRODUCT_COPY_FILES += \
 #Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.bluetooth.bluetooth_audio_hal.disabled=true
+
+# Installs gsi keys into ramdisk, to boot a GSI with verified boot.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
