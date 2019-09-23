@@ -535,6 +535,8 @@ etc/permissions/telephonyservice.xml
 -framework/qcrilhook.jar
 -framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+vendor/lib/librmnetctl.so
+vendor/lib64/librmnetctl.so
 vendor/bin/netmgrd
 vendor/bin/qmuxd
 vendor/bin/qti
