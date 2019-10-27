@@ -350,6 +350,7 @@ PRODUCT_PACKAGES += \
 
 # Qualcomm dependencies
 PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect \
     libtinyxml \
     libxml2
 
@@ -496,7 +497,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
     ro.secure=0 \
     ro.debuggable=1
-	
+
 # Enable missing props
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.opa.eligible_device=true \
@@ -511,3 +512,7 @@ PRODUCT_ODM_PROPERTIES += \
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.dpm.feature=0
+
+# QMI
+PRODUCT_PACKAGES += \
+    libjson
