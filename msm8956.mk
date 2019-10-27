@@ -349,6 +349,7 @@ PRODUCT_PACKAGES += \
 
 # Qualcomm dependencies
 PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect \
     libtinyxml \
     libxml2
 
@@ -513,5 +514,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # QMI
 PRODUCT_PACKAGES += \
-    libjson \
-    libqti_vndfwk_detect
+    libjson
