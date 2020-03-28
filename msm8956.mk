@@ -548,3 +548,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 PRODUCT_ODM_PROPERTIES += \
     ro.vendor.qti.va_odm.support=1
+
+#HALS
+PRODUCT_SOONG_NAMESPACES += \
+hardware/qcom/audio \
+hardware/qcom/media \
+hardware/qcom/display
