@@ -80,9 +80,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml
 
-# Doze mode
+# ParanoidDoze
 PRODUCT_PACKAGES += \
-    CustomDoze
+    ParanoidDoze
+
+# ParanoidDoze
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sensor.proximity=true \
+    ro.sensor.pickup=xiaomi.sensor.pickup
 
 # Audio
 PRODUCT_PACKAGES += \
