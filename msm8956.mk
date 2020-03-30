@@ -519,10 +519,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-gcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-gcam.xml
 
-#Google Markup
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/permissions/com.google.android.markup.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/com.google.android.markup.xml
-
 # AdvancedControls
 PRODUCT_PACKAGES += \
     AdvancedControls
