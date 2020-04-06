@@ -259,6 +259,7 @@ WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 
 # DT2W
 TARGET_TAP_TO_WAKE_EVENT_NODE := "/proc/gesture/onoff"
+GENERIC_TAP_TO_WAKE_NODE := "/dev/input/event4"
 
 # Enable DRM plugins 64 bit compilation
 TARGET_ENABLE_MEDIADRM_64 := true
