@@ -205,22 +205,22 @@ vendor/lib/libdpmqmihal.so|4c49409f2f18bcd12e837b6b850b06e3d93e45eb
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|fbff6357ee46dd6d62f490a942ff567b6ce955d1
 vendor/lib64/libdpmqmihal.so|30a170684219dd589d05ce5b446e73b7501f13e3
 
-# DRM
-vendor/bin/qseecomd
-vendor/lib/libQSEEComAPI.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libqisl.so
-vendor/lib64/librpmb.so
-vendor/lib64/libsecureui.so
+# DRM - from LA.UM.8.6.r1-02600-89xx.0
+vendor/bin/qseecomd|c08dcb807310a69b0ed001d59fb688e9165f1007
+vendor/lib/libQSEEComAPI.so|199f80aa6b940204fe1119aa196a3f939a2d499e
+vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
+vendor/lib64/libGPreqcancel_svc.so|82ee3c978563896569468fdc006455b3f28f35e9
+vendor/lib64/libQSEEComAPI.so|597926ec6d1fca95a76f65f52659920c441d84c2
+vendor/lib64/libSecureUILib.so|b48ed2e7cdb41d08c238a1fd171d9e7f8032516a
+vendor/lib64/libStDrvInt.so|c5413acfc1eb7218c0cff4085c8116e91252acca
+vendor/lib64/libdrmfs.so|bcae118bb9d2b07a2dae7fdcb30196293217e9ae
+vendor/lib64/libdrmtime.so|a8b04641f437e6235b3d708fe9ba486526f91ab2
+vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
+vendor/lib64/librpmb.so|b74dce3afd27fee2caf7604032dad696211dd050
+vendor/lib64/libsecureui.so|dc3ccde15c3bdbc14da9fdc63dbf30973c5fe1b1
+vendor/lib64/libsecureui_svcsock.so|a7fdcd8001d4cdd9a30eb1ccc129324c398cc203
+vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 vendor/lib64/lib-sec-disp.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libssd.so
 
 # Energy awareness - from smartron (smartron-rimo02a-8.0.0-T5524INDURC-475)
 vendor/bin/energy-awareness|8ec3f96a118c37a2dda0d70122ff075861641ccc
@@ -229,8 +229,9 @@ vendor/bin/energy-awareness|8ec3f96a118c37a2dda0d70122ff075861641ccc
 etc/firmware/DE.o.msm8952|a7c25709e65409e559b8a6849646bca027c4f40e
 etc/firmware/DE.o.msm8976|676a46b8d21ac238fa12fbccdead6521dce2926c
 
-# Gatekeeper
-vendor/lib64/hw/gatekeeper.msm8952.so
+# Gatekeeper - from LA.UM.8.6.r1-02600-89xx.0
+vendor/lib/hw/gatekeeper.msm8952.so|cd04140788659ae07a50081baeb3eb2e42f37028
+vendor/lib64/hw/gatekeeper.msm8952.so|1086e5dcda7aa2bed7ac015f7850095f6199a1c2
 
 # GPS
 etc/permissions/com.qti.location.sdk.xml
@@ -340,8 +341,9 @@ etc/firmware/a530_pm4.fw
 # IPA
 vendor/bin/ipacm-diag
 
-# Keystore
-vendor/lib64/hw/keystore.msm8952.so
+# Keystore - from LA.UM.8.6.r1-02600-89xx.0
+vendor/lib/hw/keystore.msm8952.so|c56d3768e04fc180d844dbca94be8c27770e37d5
+vendor/lib64/hw/keystore.msm8952.so|9660e1c13a3589114cf18db58e5b3c3c9e14059b
 
 # Listen	
 vendor/lib/hw/sound_trigger.primary.msm8952.so	
@@ -665,7 +667,7 @@ vendor/bin/time_daemon
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
 
-# Widevine - from LA.UM.8.6.2.r1-03700-89xx.0
+# DRM - Widevine - LA.UM.8.6.r1-02600-89xx.0
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c9d0e5183fc47388d
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
 vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
