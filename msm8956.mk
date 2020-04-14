@@ -200,8 +200,6 @@ PRODUCT_PACKAGES += \
     memtrack.msm8952 \
     libdisplayconfig \
     liboverlay \
-    libqdMetaData \
-    libqdMetaData.system \
     libgenlock \
     vendor.display.config@1.0 \
     vendor.display.config@1.0_vendor
@@ -326,6 +324,7 @@ PRODUCT_PACKAGES += \
 
 # OMX
 PRODUCT_PACKAGES += \
+    libmm-omxcore \
     libc2dcolorconvert \
     libextmedia_jni \
     libOmxAacEnc \
