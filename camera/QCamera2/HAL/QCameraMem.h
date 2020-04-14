@@ -38,7 +38,7 @@
 //Media depedancies
 #include "OMX_QCOMExtns.h"
 //Display dependencies
-#include <qdMetaData.h>
+#include "qdMetaData.h"
 
 extern "C" {
 #include <sys/types.h>
