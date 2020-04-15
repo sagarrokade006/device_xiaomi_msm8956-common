@@ -520,3 +520,7 @@ PRODUCT_COPY_FILES += \
 # CameraGo
 PRODUCT_PACKAGES += \
     CameraGo
+
+# OTA
+PRODUCT_PACKAGES += \
+    Updates
