@@ -110,6 +110,8 @@ BOARD_USES_SNAPDRAGONCAMERA_VERSION := 2
 TARGET_TS_MAKEUP := true
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
         /system/bin/mm-qcamera-daemon=23
+TARGET_USES_MEDIA_EXTENSIONS := true
+TARGET_USES_QTI_CAMERA_DEVICE := true
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
@@ -230,7 +232,8 @@ TARGET_LD_SHIM_LIBS := \
 
 # SELinux
 BOARD_SEPOLICY_VERS := 29.0
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
+include device/qcom/sepolicy/legacy-um/legacy-um.mk
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
 
