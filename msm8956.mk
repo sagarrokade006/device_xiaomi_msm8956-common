@@ -523,4 +523,4 @@ PRODUCT_PACKAGES += \
 
 # OTA
 PRODUCT_PACKAGES += \
-    Updates
+    Updater
