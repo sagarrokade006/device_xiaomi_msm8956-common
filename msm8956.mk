@@ -515,3 +515,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # QMI
 PRODUCT_PACKAGES += \
     libjson
+
+# World APN list
+PRODUCT_COPY_FILES += \
+    device/xiaomi/msm8956-common/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
