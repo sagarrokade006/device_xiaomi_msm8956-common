@@ -74,6 +74,7 @@ vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|867e374575edf2a445ed9fa774f5566f763f0756
 
 
 # Camera
+bin/mm-qcamera-daemon|38080d77baf6f4d20c9a967cf39f23479d843c19
 vendor/lib/libchromaflash.so 
 vendor/lib/libllvd_smore.so 
 vendor/lib/libllvd_sw_tnr.so 
