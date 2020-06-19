@@ -84,6 +84,8 @@ vendor/lib/liboptizoom.so
 vendor/lib/libseemore.so
 vendor/lib/libtrueportrait.so 
 vendor/lib/libubifocus.so 
+vendor/lib/libmmcamera2_mct.so|8eb312033fbeec02752edd78f73803367815421a
+vendor/lib/libmmcamera2_isp_modules.so|aec359c3a2f6d72dfdd3a095e657d109f8447109
 
 # Charger
 vendor/bin/hvdcp_opti
